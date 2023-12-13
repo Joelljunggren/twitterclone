@@ -7,33 +7,27 @@ type WhyItemProps = {
     createdAt: Date
 }
 
-// const deleteWhy = async (why: { id: any; }) => {
-//     return await prisma.why.delete({
-//       where: {id: why.id}
-//     })
-//   }
-
-//   const deleteWhy = async (why: { id: any; }) => {
-//     return await prisma.why.delete({
-//       where: { id: why.id }
-//     })
-//   }
+function nothingWorks() {
+    alert("Nothing works.");
+}
 
 
 
-
-//måste skriva om i min db att jag ska ha en titel till mitt why också
-
-export function WhyItem({message} : WhyItemProps){
+export function WhyItem({message, createdAt} : WhyItemProps){
     return <li className="items-center">
         <div className="whyerinformation">
             <img src='https://picsum.photos/45/45'></img>
-            <p>Skapare av why</p>
+            <p>Creater of why: <i>#notyetImplemented</i></p>
+            <p className='dateofwhy'>{createdAt.toDateString()} {createdAt.toLocaleTimeString()}</p>
         </div>
         <div className="whycontainer">     
         <p className="whymessage">
         {message}
         </p>
         </div>
+        <section className='flexsection'>
+        <button className='btn'>Like this why <i>#NYI</i></button>
+        <button className='btn'>Dislike this why <i>#NYI</i></button>
+        </section>
     </li>
 }
