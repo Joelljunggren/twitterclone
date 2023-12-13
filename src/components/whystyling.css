@@ -1,0 +1,46 @@
+.whycontainer {
+    border: solid 1px black;
+    background-color: rebeccapurple;
+    display: flex;
+    width: 600px;
+    margin-bottom: 40px;
+}
+
+.whymessage {
+    text-align: left;
+    margin: 1rem;
+}
+
+.whyerinformation {
+    width: 600px;
+    height: 60px;
+    background-color: slategray;
+    border: solid 1px black;
+    display: flex;
+}
+
+.whyerinformation img {
+    height: 45px;
+    width: 45px;
+    border-radius: 20px;
+    border: solid 1px black;
+    margin: 0.3rem;
+}
+
+.whyerinformation p {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+/* .whybtn {
+    border: slategray;
+    border: 4px slategray;
+    justify-content: end;
+} */
+/* border border-slate-300 text-slate-300 px-2 py-1 rounded
+hover:bg-slate-700 focus-within:bg-slate-700 outline-none" */
+
+
+/* btnstyle 
+border border-slate-300 text-slate-300 px-2 py-1 rounded
+      hover:bg-slate-700 focus-within:bg-slate-700 outline-none */

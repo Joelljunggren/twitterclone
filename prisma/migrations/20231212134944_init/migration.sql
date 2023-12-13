@@ -1,0 +1,7 @@
+-- CreateTable
+CREATE TABLE "Why" (
+    "id" TEXT NOT NULL PRIMARY KEY,
+    "message" TEXT NOT NULL,
+    "likes" INTEGER NOT NULL,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
