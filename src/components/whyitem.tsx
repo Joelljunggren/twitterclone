@@ -15,7 +15,7 @@ function nothingWorks() {
 export function WhyItem({message, createdAt} : WhyItemProps){
     return <li className="items-center">
         <div className="whyerinformation">
-            <img className='profileimg' src='https://picsum.photos/45/45'></img>
+            <img className='profileimg' alt='profileimg' src='https://picsum.photos/45/45'></img>
             <p>Creator of why: <i>#notyetImplemented</i></p>
             <p className='dateofwhy'>{createdAt.toDateString()} {createdAt.toLocaleTimeString()}</p>
         </div>

@@ -1,11 +1,11 @@
 import Link from "next/link";
 import prisma from "@/db";
 import { WhyItem } from "@/components/whyitem";
-import { redirect } from "next/dist/server/api-utils";
 
 export default async function Home() {
 
-  //Use this to delete everything from the database, uncomment and start the app again
+  //Use this to delete everything from the database, 
+  //uncomment, save, and its gone. With great power and such.
   // const deleteAll = await prisma.why.deleteMany({})
 
   const why = await prisma.why.findMany();
