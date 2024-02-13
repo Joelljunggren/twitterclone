@@ -8,5 +8,3 @@ npm run dev
 But since prisma decided to implode on my first attempt at a clone, they're staying where they are for now.
 
 Run tests with npm test
-
-Enjoy my dumpsterfire!
